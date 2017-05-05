@@ -1,0 +1,11 @@
+###
+# test
+# 2017-05-01
+###
+
+dependencies:
+  "lib.hello_world": "world"
+
+extract:
+  - step: Say hello to the world.
+    action: world.SayHello
